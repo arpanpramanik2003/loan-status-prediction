@@ -3,7 +3,7 @@ import pickle
 import pandas as pd
 
 # Load the model and pipeline
-model_path = "P:\Documents(p)\Python_Advance\ML Project\Loan_Status\loan_status_model.pkl"
+model_path = "loan_status_model.pkl"
 with open(model_path, "rb") as f:
     pipeline = pickle.load(f)
 
